@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import twitter from '../assets/twitter.png';
+import youtube from '../assets/youtube.png'
 
 export default class QuoteCard extends Component {
 
