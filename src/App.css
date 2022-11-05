@@ -52,17 +52,13 @@
   background-color: black;
 }
 .twitter{
-  height: 100px;
-  width: 100px;
   position: absolute;
-  bottom:0;
+  bottom:10px;
   left: 20px;
 }
 .yt{
-  height: 100px;
-  width: 100px;
   position: absolute;
-  bottom:0;
+  bottom:10px;
   right: 20px;
 }
 .twitter img{
