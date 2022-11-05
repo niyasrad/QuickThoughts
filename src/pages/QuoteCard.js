@@ -46,6 +46,7 @@ export default class QuoteCard extends Component {
                     <h3 class="author" id="author">-{this.state.author}</h3>
                     <button onClick={this.handleClick} id="new-quote">Next Thought.</button>
                     <a href={this.state.hreflink} id="tweet-quote"><img src={twitter} alt="chinesedogsoup"></img></a>
+                    <a class="yt" href="https://www.youtube.com/channel/UC8gbepgeQznoLAojDkxtxGA"><img src={youtube}></img></a>
 
                 </div>
             </div>
