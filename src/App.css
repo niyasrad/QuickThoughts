@@ -69,7 +69,24 @@
   height: 50px;
   width: 70px;
 }
-
+#player {
+  position: absolute;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+}
+.paused {
+  background-image: url('assets/play.png');
+  background-size: cover;
+}
+.playing {
+  background-image: url('assets/pause.png');
+  background-size: cover;
+}
 @media screen and (max-width: 500px) {
   .screen{
     width: 100vw;
@@ -200,5 +217,9 @@
   .yt img{
     height: 35px;
     width: 48px;
+  }
+  #player {
+    height: 50px;
+    width: 50px;
   }
 }
