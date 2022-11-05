@@ -59,7 +59,7 @@ export default class QuoteCard extends Component {
         return (
             <div className="card">
                 <div className="comparea" id="quote-box">
-                    <h1 class="post" id="text"><span>"</span>{this.state.title}"</h1>
+                    <h1 class="post" id="text"><span>&#8220;</span>{this.state.title}<span class="china">&#8221;</span> </h1>
                     <h3 class="author" id="author">-{this.state.author}</h3>
                     <button onClick={this.handleClick} id="new-quote">Next Thought.</button>
                     <a class="twitter" href={this.state.hreflink} id="tweet-quote"><img src={twitter} alt="chinesedogsoup"></img></a>
