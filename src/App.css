@@ -104,6 +104,10 @@
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
+  .comparea:hover { 
+    width: 600px; 
+    color: grey;
+  }
   .twitter img{
     height: 25px;
     width: 25px;
@@ -123,6 +127,7 @@
     width: 300px;
     padding: 5px;
   }
+  
   .title {
     font-size: 25px;
   }
@@ -162,6 +167,10 @@
   .comparea{
     width: 300px;
     padding: 5px;
+  }
+  .comparea:hover { 
+    width: 600px; 
+    color: grey;
   }
   .title {
     font-size: 30px;
