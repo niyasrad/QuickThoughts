@@ -52,14 +52,25 @@
   color: white;
   background-color: black;
 }
-a{
+.twitter{
   height: 100px;
   width: 100px;
   position: absolute;
   bottom:0;
   left: 20px;
 }
-img{
+.yt{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom:0;
+  right: 20px;
+}
+.twitter img{
   height: 50px;
   width: 50px;
+}
+.yt img{
+  height: 50px;
+  width: 70px;
 }
