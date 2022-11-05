@@ -76,16 +76,18 @@
   margin-right: auto;
   left: 0;
   right: 0;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 .paused {
   background-image: url('assets/play.png');
-  background-size: cover;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
 }
 .playing {
   background-image: url('assets/pause.png');
-  background-size: cover;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 500px) {
   .screen{
@@ -221,5 +223,7 @@
   #player {
     height: 50px;
     width: 50px;
+    background-size: 50px 50px;
   }
+  
 }
